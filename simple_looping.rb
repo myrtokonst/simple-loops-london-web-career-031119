@@ -19,25 +19,25 @@ end
 end
 
 def while_iterator(number_of_times)
-  counter = 0 
+  number_of_times = 0 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  while counter <10
+  while number_of_times <10
   puts phrase
 end 
 end
 
 def until_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-counter = 0
-until counter == 10
+number_of_times = 0
+until number_of_times == 10
 print phrase
 end
 end
 
 def for_iterator(number_of_times)
- counter_range=1..10
+ number_of_times=1..10
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for counter in counter_range do
+  for counter in number_of_times do
  puts phrase
 end
 end
