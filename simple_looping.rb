@@ -12,9 +12,9 @@ def loop_iterator(number_of_times)
 end
 
 def times_iterator(number_of_times)
- 10.times  
+ 10.times do 
   phrase = "Welcome to Flatiron Schoolkeyword's Web Development Course!"
-  
+end
 end
 
 def while_iterator(number_of_times)
